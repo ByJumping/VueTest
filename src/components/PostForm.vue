@@ -9,13 +9,13 @@
                 v-model="post.body"
                 type="text"
                 placeholder="Описание"/>
-        <MyButton
+        <my-button
                 class="btn"
                 style="margin-top: 15px"
                 @click="createPost"
                 >
             Создать
-        </MyButton>
+        </my-button>
     </form>
 </template>
 
